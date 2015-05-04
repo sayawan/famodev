@@ -1,5 +1,6 @@
 ### Each
 
+```
 var Engine     = famous.core.Engine;
 var Surface = famous.core.Surface;
 var Scrollview = famous.views.Scrollview;
@@ -33,3 +34,4 @@ var each = new Each({
 scrollview.sequenceFrom(each);
 
 mainContext.add(scrollview);
+```

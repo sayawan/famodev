@@ -5,21 +5,21 @@ Steps to include in your project
 in your `lib/smart.require`
 
 ```
-    "famodev": {
-        "path": "https://github.com/sayawan/famodev.git",
-        "root": "src"
-    },
+"famodev": {
+    "path": "https://github.com/sayawan/famodev.git",
+    "root": "src"
+},
 ```
 
 include `famodev` in your template
 
 ```
-    var ReactiveTemplate = famodev.reactive.ReactiveTemplate;
+var ReactiveTemplate = famodev.ReactiveTemplate;
 
-    var reactive = new ReactiveTemplate({
-        template: Template.mytemplate,
-        data: Collection.find().fetch(),
-        properties: {
-        }
-    });
+var reactive = new ReactiveTemplate({
+    template: Template.mytemplate,
+    data: Collection.find().fetch(),
+    properties: {
+    }
+});
 ```
