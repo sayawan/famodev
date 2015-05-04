@@ -2,10 +2,10 @@
 
 ```
 var Engine     = famous.core.Engine;
-var Surface = famous.core.Surface;
+var Surface    = famous.core.Surface;
 var Scrollview = famous.views.Scrollview;
 
-var Each = famodev.Each;
+var Each       = famodev.Each;
 
 var mainContext = Engine.createContext();
 
