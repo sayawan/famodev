@@ -23,3 +23,5 @@ var reactive = new ReactiveTemplate({
     }
 });
 ```
+
+Look at source `src` folder for more docs
