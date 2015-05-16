@@ -6,7 +6,7 @@ in your `lib/smart.require`
 
 ```
 "famodev": {
-    "path": "https://github.com/sayawan/famodev.git",
+    "git": "https://github.com/sayawan/famodev.git",
     "root": "src"
 },
 ```
