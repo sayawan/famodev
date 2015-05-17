@@ -9,7 +9,7 @@
 define(function(require, exports, module){
 
     var Surface             = require('famous/core/Surface');
-    var ReactiveSession     = require('famodev/reactive/ReactiveSession');
+    var ReactiveSession     = require('famodev/ReactiveSession');
 
     function ReactiveSurface (options){
         Surface.apply(this, arguments);
